@@ -1,0 +1,93 @@
+.sideNav{
+    border-right: 1px solid #dddddd;
+    margin: -28px auto;
+}
+.logo {
+  padding: 10px;
+  margin-left: 70px;
+}
+.mob-logo{
+  display: none;
+}
+.mob-logo-1{
+  display: none;
+}
+.iconsNo{
+  display: none;
+}
+.nav-link.active {
+  background-color: none !important;
+  /* padding: 10px !important; */
+}
+.nav-link {
+  border-radius: 0.25rem !important;
+  padding: 7px !important;
+  margin: 0 30px 0 50px !important;
+  font-size: 16px !important;
+  color: #6e6a6a;
+}
+.nav-link:active {
+  color: blue;
+}
+.icons-material {
+  font-size: 25px !important;
+  margin: 5px;
+}
+.dwnld{
+    text-align: center;
+    padding:20px
+}
+.dwnld > h4{
+    color: grey;
+}
+.getit{
+    width: 60%;
+}
+.tab-pane > h1{
+  padding: 15px;
+  font-size: 40px;
+}
+.albm{
+  max-height:35%;
+  max-width: 30%;
+  border-radius: 20px;
+  margin:10px;
+  padding: auto;
+}
+.artists{
+  max-width: 25%;
+  border-radius: 50%;
+  margin:10px;
+  padding: auto;
+  
+}
+@media screen and (max-width: 1000px){
+  .albm{
+    max-width: 40%;
+  }
+  .sideNav{
+    display: none;
+  }
+  .col-9 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .serch{
+    display: none;
+    
+  }
+.mob-logo{
+  display: inline;
+  padding: 10px;
+  margin-left: 30px;
+}
+.mob-logo-1{
+  display: inline;
+}
+.mob-logoh2{
+  margin: 30px 20px 0 20px;
+}
+.iconsNo{display:grid}
+
+
+}
